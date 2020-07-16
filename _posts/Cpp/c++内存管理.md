@@ -1,6 +1,6 @@
 ---
 title: c++内存管理
-date: 2020-07-16 08:13:25
+date: 2020-07-05 08:13:25
 categories: Cpp
 tag: c++
 ---
