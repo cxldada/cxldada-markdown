@@ -5,8 +5,6 @@ categories: Tools
 tags: linux
 ---
 
-[TOC]
-
 # 查看wifi网卡
 
 ```sudo ifconfig -a```
