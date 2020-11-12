@@ -1,7 +1,7 @@
 ---
 title: Linux文件系统
 date: 2020-07-30 11:43:43
-categories: Linux
+categories: Tools
 tags: file
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: shell编程
 date: 2020-07-30 11:43:48
-categories: Linux
+categories: Tools
 tags: shell
 ---
 
