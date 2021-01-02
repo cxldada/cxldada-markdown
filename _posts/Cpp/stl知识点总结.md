@@ -31,8 +31,8 @@ template<typename _Tp>
 struct __List_iterator {
     typedef bidirectional_iterator iterator_category; // 迭代器分类
     typedef _Tp value_type;// 迭代器所指内容的类型
-    typedef _Tp* pointer;// 迭代器分类
-    typedef _Tp& reference;// 迭代器分类
+    typedef _Tp* pointer;// 数据指针
+    typedef _Tp& reference;// 数据引用
     typedef ptrdiff_t difference_type;// 能够表示两个迭代器之间的距离，所使用的类型
 };
 ```
@@ -56,7 +56,7 @@ struct iterator_traits<T*> {
     typedef T value_type;
     ...
 };
-template<class I>
+template<class T>
 struct iterator_traits<const T*> {
     typedef random_access_iterator_tag iterator_category;
     typedef T value_type; // 注意不是const T
@@ -158,7 +158,7 @@ protected:
     typedef pointer* map_pointer; // T**
 protected:
     iterator start;
-    iterator start;
+    iterator finish;
     map_pointer map;
     size_type map_size;
 };
